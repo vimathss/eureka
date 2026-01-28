@@ -1,6 +1,6 @@
 #  Eureka 💡
 
-**Eureka** é um aplicativo mobile desenvolvido em **React Native**, utilizando **Expo** e **TypeScript**, criado durante o **Curso Técnico de Desenvolvimento de Sistemas** na **Etec de Hortolândia**, nas disciplinas de **Programação Mobile I e II**.
+**Eureka** é um aplicativo mobile desenvolvido em **React Native**, utilizando **Expo** e **TypeScript**, criado durante o **Curso Técnico de Desenvolvimento de Sistemas** na **Etec de Hortolândia**, nas disciplinas de **Programação Mobile I e II** junto ao Professor Ralfe Della Crosta Filho.
 
 O aplicativo tem como objetivo oferecer um **ambiente simples, seguro e organizado** para anotações tecnológicas, como ideias de projetos, soluções de problemas, códigos (ex: REGEX, snippets) e informações úteis para desenvolvedores.
 
