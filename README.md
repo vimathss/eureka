@@ -61,7 +61,7 @@ O aplicativo conta com as seguintes telas:
 
 ## 📱 Telas do Aplicativo
 
-<p align="center"> <img src="../eureca/screens/initial.jpeg" alt="Tela Inicial — Eureka" width="220"/> <img src="../eureca/screens/login.jpeg" alt="Tela de Login — Eureka" width="220"/> <img src="../eureca/screens/register.jpeg" alt="Tela de Registro — Eureka" width="220"/> </p> <p align="center"> <img src="../eureca/screens/home.jpeg" alt="Tela Home — Eureka" width="220"/> <img src="../eureca/screens/new-idea.jpeg" alt="Tela de Nova Ideia — Eureka" width="220"/> <img src="../eureca/screens/profile.jpeg" alt="Tela de Perfil — Eureka" width="220"/> </p>
+<p align="center"> <img src="screens/initial.jpeg" alt="Tela Inicial — Eureka" width="220"/> <img src="screens/login.jpeg" alt="Tela de Login — Eureka" width="220"/> <img src="screens/register.jpeg" alt="Tela de Registro — Eureka" width="220"/> </p> <p align="center"> <img src="screens/home.jpeg" alt="Tela Home — Eureka" width="220"/> <img src="screens/new-idea.jpeg" alt="Tela de Nova Ideia — Eureka" width="220"/> <img src="screens/profile.jpeg" alt="Tela de Perfil — Eureka" width="220"/> </p>
 
 ---
 
