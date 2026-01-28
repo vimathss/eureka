@@ -1,50 +1,118 @@
-# Welcome to your Expo app 👋
+#  Eureka 💡
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Eureka** é um aplicativo mobile desenvolvido em **React Native**, utilizando **Expo** e **TypeScript**, criado durante o **Curso Técnico de Desenvolvimento de Sistemas** na **Etec de Hortolândia**, nas disciplinas de **Programação Mobile I e II**.
 
-## Get started
+O aplicativo tem como objetivo oferecer um **ambiente simples, seguro e organizado** para anotações tecnológicas, como ideias de projetos, soluções de problemas, códigos (ex: REGEX, snippets) e informações úteis para desenvolvedores.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📌 Informações Gerais
 
-2. Start the app
+- **Nome do projeto:** Eureka
+- **Tipo:** Aplicativo Mobile
+- **Plataforma:** Android / iOS
+- **Contexto:** Projeto Acadêmico
+- **Instituição:** Etec de Hortolândia
+- **Ano:** 2024-2025 
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🎯 Objetivo do Projeto
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O Eureka foi desenvolvido com o propósito de:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Centralizar **anotações técnicas** em um único lugar
+- Garantir **segurança e privacidade** dos dados do usuário
+- Aplicar conceitos modernos de **desenvolvimento mobile**
+- Consolidar conhecimentos práticos em **React Native e Firebase**
 
-## Get a fresh project
+O foco do projeto foi unir **funcionalidade, organização de código e boas práticas**, simulando um cenário real de aplicação profissional.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🚀 Funcionalidades Principais
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔐 Autenticação de Usuários
+- Login e registro com **email, senha e username**
+- Implementação utilizando **Firebase Authentication**
 
-## Learn more
+### 🔒 Persistência de Sessão e Proteção de Rotas
+- Manutenção do usuário autenticado
+- Restrição de acesso a rotas privadas
+- Controle de navegação por layout (rotas públicas e privadas)
 
-To learn more about developing your project with Expo, look at the following resources:
+### 📝 CRUD de Ideias
+- Criação e listagem de ideias
+- Ideias vinculadas ao **usuário autenticado**
+- Exibição em **cards reutilizáveis**, organizados em **duas colunas**
+- Integração com **Firebase Firestore**
+- Atualização em tempo real utilizando `onSnapshot`
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🖥️ Interface do Aplicativo
+O aplicativo conta com as seguintes telas:
+- Tela de apresentação
+- Login
+- Registro
+- Home (listagem de ideias)
+- Criação de anotações
+- Perfil do usuário
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📱 Telas do Aplicativo
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<p align="center"> <img src="../eureca/screens/initial.jpeg" alt="Tela Inicial — Eureka" width="220"/> <img src="../eureca/screens/login.jpeg" alt="Tela de Login — Eureka" width="220"/> <img src="../eureca/screens/register.jpeg" alt="Tela de Registro — Eureka" width="220"/> </p> <p align="center"> <img src="../eureca/screens/home.jpeg" alt="Tela Home — Eureka" width="220"/> <img src="../eureca/screens/new-idea.jpeg" alt="Tela de Nova Ideia — Eureka" width="220"/> <img src="../eureca/screens/profile.jpeg" alt="Tela de Perfil — Eureka" width="220"/> </p>
+
+---
+
+## 🧠 Tecnologias e Boas Práticas
+
+### 🛠️ Tecnologias Utilizadas
+
+<p align="left">
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="75" height="75"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" width="75" height="75"/>
+  <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="75" height="75"/>
+</p>
+
+- **React Native**
+- **Expo**
+- **Expo Router**
+- **Firebase Authentication**
+- **Firebase Firestore**
+- **TypeScript**
+- **Context API**
+- **Hooks**
+- **Fontes customizadas (Poppins)**
+
+---
+
+### 📂 Estrutura e Organização
+
+- Separação de rotas **públicas (auth)** e **privadas (tabs)**
+- Serviços isolados:
+  - `auth.ts`
+  - `user.ts`
+  - `ideas.ts`
+- Componentes reutilizáveis
+- Layouts controlando acesso às rotas
+
+---
+
+### ✅ Boas Práticas Aplicadas
+
+- Separação entre **lógica e interface**
+- Uso de **Context API** para estado global de autenticação
+- Proteção de rotas por layout
+- Uso do **UID do usuário** como chave no Firestore
+- Listener em tempo real com `onSnapshot`
+- Unsubscribe do listener para evitar **memory leaks**
+- Tipagem explícita com TypeScript
+
+---
+
+## 📚 Considerações Finais
+
+O projeto **Eureka** representa a consolidação de conhecimentos em desenvolvimento mobile, autenticação, banco de dados em tempo real e arquitetura de aplicações.
+
+A aplicação foi construída com foco em **organização,**

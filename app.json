@@ -1,17 +1,21 @@
 {
   "expo": {
-    "name": "eureca",
-    "slug": "eureca",
+    "name": "eureka",
+    "slug": "eureka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "eureca",
+    "scheme": "eureka",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
+       "navigationBar": {
+        "backgroundColor": "transparent",
+        "visible": true
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
